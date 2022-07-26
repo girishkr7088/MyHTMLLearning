@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p> <i>portfolio</i> portfolio portfolio portfolio portfolio portfolio portfolio portfolio portfolio portfolio portfolio portfolio portfolio portfolio  </p>  
+    <hr/>
+    <h1>heading1</h1>
+    <h2>heading2</h2>
+    <h3>heading3</h3>
+    <h4>heading4</h4>
+    <h5>heading5</h5>
+    <h6>heading6</h6>
+    <hr/>
+    <a href="https://www.lamborghini.com/en-en" target="_main"> <img src="http://hdqwalls.com/wallpapers/black-lamborghini-aventador-4k-2018-at.jpg" alt="SANT AGATA BOLOGNESE" height="300" /> </a>  
+    <br/>
+    <a href="https://www.pagani.com/zonda-cinque/" target="_main"> MODENA </a>  
+    <br/>
+    <a href="/hello folder/hello.html">GO TO HELLO</a>
+    <br/>
+    <hr/>
+    <img src="https://www.supercars.net/blog/wp-content/uploads/2020/10/2009-Pagani-Zonda-Cinque-Roadster-007-2160-scaled.jpg"alt="zonda supercar" height="200"/> 
+    <br/>
+    <hr/>
+    <b>bold</b>
+    <br/>
+    <i>italic</i>
+    <br/>
+    <u>underlined</u>
+    <br/>
+    <hr/>
+    <big>this tag shows big text</big>
+    <br/>
+    <small>this tag shows small text</small>
+    <hr/>
+    <p>H<sub>2</sub>O</p>
+    <br/>
+    <p>A<sup>n</sup> + B</p> 
+    <hr/>
+    <pre>Lorem                  ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ut incidunt ipsa animi cum. Asperiores dolorum animi, ex totam tempora ullam, quia dolor minima debitis voluptatum libero blanditiis voluptates numquam.</pre>
+    <hr/>
+    <header>
+        <pre>education          projects</pre>
+    </header>
+    <br/>
+    <main>
+        <section> education : UNSW (SOPHOMORE) | SCHOOL (BLUE BIRD) </section>
+        <br/>
+        <section> experiences : ALIBABA | SONY | SAMSUNG | TENCENT </section>
+        <br/>
+        <article> my story : </article>
+        <br/>
+        <aside> this is an ad </aside> 
+        <br/>
+        <div> 
+            <p> hello world </p>
+            <p> namaste </p>
+            <p> hi </p> 
+        </div>
+        <div>
+            <p> bye </p>
+            <p> goodbye </p>
+            <p> ciao </p> 
+        </div> 
+        <span> BYE </span>
+        <ul>
+            <li> Steven Smith</li>
+            <ul>
+                <li> country : australia </li>
+                <li> test average : 60 </li>
+            </ul>
+            <li> Virat Kohli </li>
+            <ul>
+                <li> country : india </li>
+                <li> test average : 50 </li>
+            </ul>
+            <li> Joe Root </li> 
+            <ul>
+                <li> country : england </li>
+                <li> test average : 49.5 </li> 
+            </ul>
+        </ul>
+        <ol>
+            <li> Steven Smith</li>
+            <ol>
+                <li> country : australia </li>
+                <li> test average : 60 </li>
+            </ol>
+            <li> Virat Kohli </li>
+            <ol>
+                <li> country : india </li>
+                <li> test average : 50 </li>
+            </ol>
+            <li> Joe Root </li> 
+            <ol>
+                <li> country : england </li>
+                <li> test average : 49.5 </li> 
+            </ol>
+        </ol>
+        <table>
+            <thead>
+            <caption> STUDENT DATA </caption> 
+            <tr>
+                <th colspan="2"> INFORMATION </th>
+                <br/>  
+                <!--<th> NAME </th>
+                <th> ROLL NO. </th> -->
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td> GIRISH KUMAR </td>
+                <td> 27 </td>
+            </tr>
+            <tr>
+                <td> Ram </td>
+                <td> 54 </td>
+            </tr>
+            <tr>
+                <td> Aman </td>
+                <td> 76 </td>
+            </tr>
+            </tbody> 
+        </table>
+    </main>
+    <br/> 
+    <form action="/action.php">
+        <input type="text" placeholder="username">
+        <br/><br/>    
+        <input type="password" placeholder="password">
+        <br/><br/>
+        <H5> SELECT YOUR CLASS </H5>
+        <label for="101">
+            <input type="radio" value="class XI" name="class" id="101">class XI
+        </label>
+        <br/><br/> 
+        <label for="102">
+            <input type="radio" value="class XII" name="class" id="102">class XII
+        </label>
+        <br/><br/>
+        <h5> SELECT YOUR FAVOURITE SUBJECTS </h5> 
+        <label for="maths">
+            <input type="checkbox" value="maths" name="subject" id="101">maths
+        </label>
+        <br/><br/>
+        <label for="physics">
+            <input type="checkbox" value="physics" name="subject" id="102">physics
+        </label>
+        <br/><br/>
+        <label for="chemistry">
+            <input type="checkbox" value="chemistry" name="subject" id="103">chemistry
+        </label>
+        <br/><br/>
+        <label for="biology">
+            <input type="checkbox" value="biology" name="subject" id="104">biology
+        </label>
+        <BR/><BR/>
+        <select name="city">
+            <option value="new york">new york</option>
+            <option value="boston">boston</option>
+            <option value="hong kong">hong kong</option>
+            <option value="seoul">seoul</option>
+            <option value="brisbane">brisbane</option> 
+        </select>
+        <br/><br/> 
+        <textarea name="feedback" id="101" placeholder="please give your valuable opinion here" rows="5"> Feedback </textarea>
+        <br/><br/>
+        <input type="submit" value="submit">                       
+    </form>
+    <br/><br/>
+    <iframe width="300" height="250" src="https://www.youtube.com/embed/xZQ_Qw2IJOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br/><br/>
+    <iframe width="300" height="250" src="https://en.wikipedia.org/wiki/Wikipedia"></iframe>
+    <br/><br/>
+    <video  width="300" height="250" src="https://www.youtube.com/embed/J1rOfVst-EQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  controls loop></video>
+    <footer>
+        <h3>contact me at hello@ac.com</h3> 
+    </footer>
+</body>
+</html>
